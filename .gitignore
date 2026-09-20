@@ -1,0 +1,25 @@
+# Virtual environments
+healthcare/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Generated outputs
+outputs/
+
+# Python build files
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db

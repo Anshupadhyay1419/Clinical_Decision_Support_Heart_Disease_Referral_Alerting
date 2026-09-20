@@ -1,7 +1,10 @@
 import pandas as pd
 
-DATA_URL =("https://raw.githubusercontent.com/AndreasPr/" "Heart-Disease-Prediction-System/master/processed.cleveland.data")
-
+DATA_URL = (
+    "https://archive.ics.uci.edu/ml/"
+    "machine-learning-databases/heart-disease/"
+    "processed.cleveland.data"
+)
 COLUMN_NAMES = ["age","sex", "cp", "trestbps","chol","fbs", "restecg","thalach","exang","oldpeak", "slope", "ca","thal","target"]
 
 def load_data ():
